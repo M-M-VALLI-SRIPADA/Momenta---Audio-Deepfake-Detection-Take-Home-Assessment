@@ -52,26 +52,26 @@ AUC-ROC Score: 0.5893
 
 **Reflection**
 
-Challenges Encountered
-
+**Challenges Encountered
+**
 1. Streaming Audio Data: Addressed issues with corrupted .flac files by implementing validation methods.
 
 2. Model Input Compatibility: Resolved mismatches between extracted MFCC features and the AASIST model's input dimensions.
 
 3. Feature Consistency: Ensured uniform MFCC extraction across all audio samples to prevent inconsistencies.
 
-Real-World Applicability
-
+**Real-World Applicability
+**
 1. While effective in controlled environments, the system requires further optimization for real-world scenarios, such as noisy or diverse datasets.
 
-Future Improvements
-
+**Future Improvements
+**
 1. Experiment with alternative features, such as spectrograms, to enhance robustness.
 
 2. Utilize datasets with greater diversity and introduce adversarial samples to improve generalization.
 
-Deployment Strategy
-
+**Deployment Strategy
+**
 1. Automate real-time preprocessing for streaming and feature extraction.
 
 2. Optimize the AASIST model for low-latency predictions in production environments, such as voice authentication systems.
